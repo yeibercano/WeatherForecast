@@ -10,5 +10,5 @@ Follow his course on [Redux](https://www.udemy.com/react-redux/)?
 	> React-google-maps
 	> React-sparklines 
 	> Open Weather Map API
-	> ES6, Boostrap, Lodash
+	> ES6, Bootstrap, Lodash
 ```
