@@ -1,3 +1,55 @@
+ol, ul {
+    list-style: none;
+}
+
+
+header {
+    background-color: tomato;
+    /*padding: 10px;*/
+    /*height: $header-height;*/
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.brand {
+	font-weight: bold;
+}
+nav {
+    display: flex;
+    align-items: baseline;
+    flex-grow: 1;
+}
+nav a {
+   text-decoration: none;
+   color: white;
+}
+nav a:hover {
+   text-decoration: underline;
+   color: white;
+}
+nav ul {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px !important;
+}
+nav ul li {
+    padding-left: 20px;
+}
+
+
+footer {
+    background-color: tomato;
+    text-align: center;
+    padding: 10px;
+    width: 100%;   
+    color: white;
+    margin-top: auto;
+}
+
+
 .input-group {
 	margin: 20px 0px;
 }
